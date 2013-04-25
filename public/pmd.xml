@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-04-24T21:09:04.345">
+<file name="c:\hongbo\javacode\datakungfu\src\main\java\org\vtti\algorithm\DataAlgorithmsBSTree.java">
+<violation beginline="8" endline="8" begincolumn="32" endcolumn="36" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.algorithm" class="DataAlgorithmsBSTree$BSTNode" variable="value" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'value'.
+</violation>
+<violation beginline="9" endline="9" begincolumn="29" endcolumn="32" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.algorithm" class="DataAlgorithmsBSTree$BSTNode" variable="left" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'left'.
+</violation>
+<violation beginline="10" endline="10" begincolumn="29" endcolumn="33" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.algorithm" class="DataAlgorithmsBSTree$BSTNode" variable="right" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'right'.
+</violation>
+<violation beginline="13" endline="13" begincolumn="19" endcolumn="22" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.algorithm" class="DataAlgorithmsBSTree" variable="root" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'root'.
+</violation>
+</file>
+<file name="c:\hongbo\javacode\datakungfu\src\main\java\org\vtti\data\DataParse.java">
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.StringReader'
+</violation>
+<violation beginline="9" endline="9" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.StringWriter'
+</violation>
+</file>
+<file name="c:\hongbo\javacode\datakungfu\src\main\java\org\vtti\data\Db2Data.java">
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="20" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.mapdb.DB'
+</violation>
+<violation beginline="15" endline="15" begincolumn="24" endcolumn="32" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.data" class="ResDataEntry" variable="resstring" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'resstring'.
+</violation>
+<violation beginline="16" endline="16" begincolumn="24" endcolumn="30" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.data" class="ResDataEntry" variable="reslong" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'reslong'.
+</violation>
+<violation beginline="17" endline="17" begincolumn="24" endcolumn="29" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.data" class="ResDataEntry" variable="resint" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'resint'.
+</violation>
+<violation beginline="18" endline="18" begincolumn="24" endcolumn="31" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.data" class="ResDataEntry" variable="resshort" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'resshort'.
+</violation>
+<violation beginline="19" endline="19" begincolumn="28" endcolumn="39" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.data" class="ResDataEntry" variable="restimestamp" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'restimestamp'.
+</violation>
+<violation beginline="20" endline="20" begincolumn="25" endcolumn="33" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.data" class="ResDataEntry" variable="resdouble" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'resdouble'.
+</violation>
+<violation beginline="45" endline="53" begincolumn="16" endcolumn="9" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.vtti.data" class="ResDataEntry" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'resint'.
+</violation>
+<violation beginline="58" endline="61" begincolumn="26" endcolumn="26" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.vtti.data" class="ResDataEntry" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="66" endline="69" begincolumn="17" endcolumn="17" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.vtti.data" class="ResDataEntry" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="236" endline="236" begincolumn="46" endcolumn="57" rule="ClassCastExceptionWithToArray" ruleset="Basic Rules" package="org.vtti.data" class="Db2Data" method="getdirectfetchresults" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#ClassCastExceptionWithToArray" priority="3">
+This usage of the Collection.toArray() method will throw a ClassCastException.
+</violation>
+<violation beginline="499" endline="499" begincolumn="18" endcolumn="20" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="Db2Data" method="test" variable="sql" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'sql'.
+</violation>
+<violation beginline="501" endline="501" begincolumn="18" endcolumn="21" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="Db2Data" method="test" variable="sql1" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'sql1'.
+</violation>
+<violation beginline="503" endline="503" begincolumn="18" endcolumn="21" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="Db2Data" method="test" variable="sql2" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'sql2'.
+</violation>
+<violation beginline="518" endline="518" begincolumn="31" endcolumn="32" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="Db2Data" method="test" variable="al" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'al'.
+</violation>
+<violation beginline="542" endline="542" begincolumn="18" endcolumn="22" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="Db2Data" method="test" variable="print" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'print'.
+</violation>
+</file>
+<file name="c:\hongbo\javacode\datakungfu\src\main\java\org\vtti\data\Db2DataManage.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="27" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.sql.Connection'
+</violation>
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="26" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.sql.Statement'
+</violation>
+</file>
+<file name="c:\hongbo\javacode\datakungfu\src\main\java\org\vtti\data\LocalDataBerkeleyDB.java">
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="39" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.sleepycat.bind.EntryBinding'
+</violation>
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="47" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.sleepycat.bind.serial.SerialBinding'
+</violation>
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="49" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.sleepycat.collections.StoredSortedMap'
+</violation>
+<violation beginline="9" endline="9" begincolumn="1" endcolumn="51" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.sleepycat.collections.TransactionRunner'
+</violation>
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Map'
+</violation>
+<violation beginline="26" endline="26" begincolumn="1" endcolumn="27" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.SortedMap'
+</violation>
+<violation beginline="28" endline="28" begincolumn="1" endcolumn="20" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.mapdb.DB'
+</violation>
+<violation beginline="47" endline="47" begincolumn="18" endcolumn="27" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.data" class="LocalDataBerkeleyDB" variable="numRecords" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'numRecords'.
+</violation>
+<violation beginline="48" endline="48" begincolumn="18" endcolumn="23" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.data" class="LocalDataBerkeleyDB" variable="offset" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'offset'.
+</violation>
+<violation beginline="49" endline="49" begincolumn="22" endcolumn="29" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.data" class="LocalDataBerkeleyDB" variable="doInsert" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'doInsert'.
+</violation>
+<violation beginline="56" endline="56" begincolumn="40" endcolumn="46" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.data" class="LocalDataBerkeleyDB" variable="catalog" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'catalog'.
+</violation>
+<violation beginline="81" endline="81" begincolumn="34" endcolumn="35" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="LocalDataBerkeleyDB" method="getallkeys" variable="bb" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'bb'.
+</violation>
+<violation beginline="183" endline="183" begincolumn="32" endcolumn="34" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="LocalDataBerkeleyDB" method="repeateget" variable="key" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'key'.
+</violation>
+<violation beginline="452" endline="452" begincolumn="32" endcolumn="36" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="LocalDataBerkeleyDB" method="main" variable="value" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'value'.
+</violation>
+<violation beginline="461" endline="461" begincolumn="25" endcolumn="28" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="LocalDataBerkeleyDB" method="main" variable="test" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'test'.
+</violation>
+<violation beginline="484" endline="484" begincolumn="32" endcolumn="32" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="LocalDataBerkeleyDB" method="main" variable="a" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'a'.
+</violation>
+<violation beginline="502" endline="502" begincolumn="28" endcolumn="32" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="LocalDataBerkeleyDB" method="main" variable="print" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'print'.
+</violation>
+</file>
+<file name="c:\hongbo\javacode\datakungfu\src\main\java\org\vtti\data\LocalDataManager.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="20" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.mapdb.DB'
+</violation>
+<violation beginline="18" endline="20" begincolumn="17" endcolumn="9" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.vtti.data" class="LocalDataManager" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'filepath'.
+</violation>
+</file>
+<file name="c:\hongbo\javacode\datakungfu\src\main\java\org\vtti\data\XmlData.java">
+<violation beginline="13" endline="13" begincolumn="1" endcolumn="27" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.InputStream'
+</violation>
+<violation beginline="35" endline="35" begincolumn="8" endcolumn="46" rule="DuplicateImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#DuplicateImports" priority="4">
+Avoid duplicate imports such as 'javax.xml.transform.stream.StreamResult'
+</violation>
+<violation beginline="680" endline="682" begincolumn="10" endcolumn="9" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.vtti.data" class="XmlData" method="printyxml" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="693" endline="693" begincolumn="20" endcolumn="26" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="XmlData" method="test" variable="tagname" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'tagname'.
+</violation>
+<violation beginline="708" endline="708" begincolumn="54" endcolumn="59" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="XmlData" method="main" variable="upname" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'upname'.
+</violation>
+<violation beginline="712" endline="712" begincolumn="50" endcolumn="67" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="XmlData" method="main" variable="batch2dimarraylist" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'batch2dimarraylist'.
+</violation>
+<violation beginline="719" endline="719" begincolumn="27" endcolumn="31" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="XmlData" method="main" variable="node2" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'node2'.
+</violation>
+<violation beginline="727" endline="727" begincolumn="27" endcolumn="37" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.data" class="XmlData" method="main" variable="elementname" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'elementname'.
+</violation>
+</file>
+<file name="c:\hongbo\javacode\datakungfu\src\main\java\org\vtti\data\XmlParse.java">
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="32" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.FileOutputStream'
+</violation>
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="27" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.IOException'
+</violation>
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="27" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.PrintStream'
+</violation>
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.StringReader'
+</violation>
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.StringWriter'
+</violation>
+<violation beginline="11" endline="11" begincolumn="1" endcolumn="41" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.parsers.DocumentBuilder'
+</violation>
+<violation beginline="12" endline="12" begincolumn="1" endcolumn="48" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.parsers.DocumentBuilderFactory'
+</violation>
+<violation beginline="13" endline="13" begincolumn="1" endcolumn="54" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.parsers.ParserConfigurationException'
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="38" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.transform.OutputKeys'
+</violation>
+<violation beginline="15" endline="15" begincolumn="1" endcolumn="39" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.transform.Transformer'
+</violation>
+<violation beginline="16" endline="16" begincolumn="1" endcolumn="48" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.transform.TransformerException'
+</violation>
+<violation beginline="17" endline="17" begincolumn="1" endcolumn="46" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.transform.TransformerFactory'
+</violation>
+<violation beginline="18" endline="18" begincolumn="1" endcolumn="41" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.transform.dom.DOMSource'
+</violation>
+<violation beginline="19" endline="19" begincolumn="1" endcolumn="47" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.transform.stream.StreamResult'
+</violation>
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.w3c.dom.Document'
+</violation>
+<violation beginline="23" endline="23" begincolumn="1" endcolumn="32" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.w3c.dom.NamedNodeMap'
+</violation>
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.w3c.dom.NodeList'
+</violation>
+<violation beginline="26" endline="26" begincolumn="1" endcolumn="24" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.w3c.dom.Attr'
+</violation>
+<violation beginline="28" endline="28" begincolumn="1" endcolumn="31" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.xml.sax.InputSource'
+</violation>
+<violation beginline="29" endline="29" begincolumn="1" endcolumn="32" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.xml.sax.SAXException'
+</violation>
+<violation beginline="31" endline="31" begincolumn="1" endcolumn="60" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.data" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.sun.org.apache.xerces.internal.parsers.DOMParser'
+</violation>
+</file>
+<file name="c:\hongbo\javacode\datakungfu\src\main\java\org\vtti\timemachine\BareBoneMachine.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="29" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.sql.SQLException'
+</violation>
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="27" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.ArrayList'
+</violation>
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="26" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Iterator'
+</violation>
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Map'
+</violation>
+<violation beginline="9" endline="9" begincolumn="1" endcolumn="51" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.concurrent.ConcurrentNavigableMap'
+</violation>
+<violation beginline="12" endline="12" begincolumn="1" endcolumn="25" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.mapdb.DBMaker'
+</violation>
+<violation beginline="13" endline="13" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.mapdb.Fun'
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="31" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.vtti.data.DataParse'
+</violation>
+<violation beginline="15" endline="15" begincolumn="1" endcolumn="41" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.vtti.data.LocalDataBerkeleyDB'
+</violation>
+<violation beginline="16" endline="16" begincolumn="1" endcolumn="36" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.vtti.data.LocalDataMapDB'
+</violation>
+</file>
+<file name="c:\hongbo\javacode\datakungfu\src\main\java\org\vtti\timemachine\DataTimeMachine.java">
+<violation beginline="33" endline="33" begincolumn="43" endcolumn="53" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.vtti.timemachine" class="DataTimeMachine" variable="EMPTY_ARRAY" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'EMPTY_ARRAY'.
+</violation>
+<violation beginline="191" endline="191" begincolumn="27" endcolumn="28" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.vtti.timemachine" class="DataTimeMachine" method="justinsertsql" variable="dp" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'dp'.
+</violation>
+</file>
+<file name="c:\hongbo\javacode\datakungfu\src\main\java\org\vtti\timemachine\DatabaseTimeMachine.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="20" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.File'
+</violation>
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="26" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.sql.ResultSet'
+</violation>
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="34" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.sql.ResultSetMetaData'
+</violation>
+<violation beginline="10" endline="10" begincolumn="1" endcolumn="51" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.concurrent.ConcurrentNavigableMap'
+</violation>
+<violation beginline="11" endline="11" begincolumn="1" endcolumn="46" rule="UnusedImports" ruleset="Import Statement Rules" package="org.vtti.timemachine" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.concurrent.atomic.AtomicLong'
+</violation>
+</file>
+</pmd>
